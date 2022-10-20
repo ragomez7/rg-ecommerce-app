@@ -8,7 +8,7 @@ This app is a demo and exploration of different tools, including:
 </ul>
 
 The current user stories are:
-As admin:
+<h3>As admin:</h3>
 <ul>
   <li>The admin logs in with username: admin and password: admin (mock auth) </li>
   <li>The admin can create new products</li>
