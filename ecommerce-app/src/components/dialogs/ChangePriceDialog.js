@@ -14,7 +14,7 @@ export default function ChangePriceDialog({
   setProduct,
 }) {
   const [newPrice, setNewPrice] = useState("");
-  console.log(product);
+  // console.log(product);
   const handleChangeNewPrice = (e) => {
     setNewPrice(e.target.value);
   };
@@ -40,10 +40,10 @@ export default function ChangePriceDialog({
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log("Success:", data);
+        // console.log("Success:", data);
       })
       .catch((error) => {
-        console.error("Error:", error);
+        // console.error("Error:", error);
       });
       handleChangePriceDialogClose(e);
     setProduct((prevState) => {
